@@ -94,7 +94,6 @@ p {
 }
 
 .p-wrap {
-    width: 480px;
     grid-area: phrase;
 }
 
