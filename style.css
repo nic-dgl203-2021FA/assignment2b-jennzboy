@@ -86,7 +86,6 @@ p {
     border-right: .15em solid #63A088;
     overflow: hidden;
     white-space: nowrap;
-    grid-area: phrase;
 
     animation: typing 5s steps(35) infinite,
            blinking 0.5s steps(1) infinite;
@@ -94,6 +93,7 @@ p {
 
 .p-wrap {
     width: 480px;
+    grid-area: phrase;
 }
 
 @keyframes typing {
