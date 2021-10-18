@@ -164,6 +164,9 @@ p {
       "clouds";
   }
 
+  h1 {
+    text-align: left;
+  }
   button {
     width: 200px;
   }
