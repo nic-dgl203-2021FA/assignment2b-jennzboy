@@ -28,6 +28,8 @@ button {
     font-size: 1rem;
 
 }
+button {
+    transition: background .4s ease-in,
 
 }
 button:hover {
