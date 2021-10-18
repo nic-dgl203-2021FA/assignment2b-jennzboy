@@ -36,8 +36,8 @@ button {
     margin: 10px 15px 10px 15px;
     padding: 10px;
     font-family: roc-grotesk, sans-serif;
-    font-size: 1rem;
-
+    font-size: 1em;
+    width: 50%;
 }
 button {
     transition: background .4s ease-in,
