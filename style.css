@@ -78,6 +78,10 @@ h3 {
   animation: scaleDown 3s 1s backwards infinite;
 }
 
+.word-wrap {
+  width: 400px;
+}
+
 /* ########## Phrase Styles ########## */
 
 p {
