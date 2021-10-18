@@ -136,6 +136,10 @@ p {
     }
   }
 
+.cloud01 {
+    animation: float 40s linear infinite;
+}
+  
 }
 
 /* ########## Responsive Styles ########## */
