@@ -91,6 +91,10 @@ p {
     overflow: hidden;
     white-space: nowrap;
 
+.p-wrap {
+    width: 500px;
+}
+
 }
 
 
