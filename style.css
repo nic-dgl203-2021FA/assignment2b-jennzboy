@@ -67,6 +67,7 @@ h3 {
     padding: 10px;
     text-align: center;
     margin: 0;
+    height: 55px;
 
     animation-name: scaleDown;
     animation-duration: 3s;
