@@ -30,8 +30,7 @@ h1 {
 button {
     background-color: rgb(99, 160, 136, 0.5);
     border: solid 2px #63A088;
-    height: 50px;
-    margin: 10px 15px 10px 15px;
+    height: 55px;
     padding: 10px;
     font-family: roc-grotesk, sans-serif;
     font-size: 1em;
