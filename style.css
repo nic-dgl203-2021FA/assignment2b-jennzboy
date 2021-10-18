@@ -123,6 +123,8 @@ p {
 
 .cloud {
     display: flex;
+    margin: 25px;
+    
 }
 
 }
