@@ -105,6 +105,9 @@ p {
 }
 
 @keyframes blinking {
+    0%, 100% {
+        border-color: transparent;
+    }
     }
 }
 
