@@ -131,6 +131,9 @@ p {
     0% {
       transform: translateX(-250px);
     }
+    100% {
+      transform: translateX(1520px);
+    }
   }
 
 }
