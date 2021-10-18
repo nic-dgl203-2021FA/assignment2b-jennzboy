@@ -91,6 +91,10 @@ p {
     overflow: hidden;
     white-space: nowrap;
 
+    animation: typing 5s steps(35),
+           blinking 0.5s steps(1) infinite;
+}
+
 .p-wrap {
     width: 500px;
 }
