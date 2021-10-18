@@ -30,7 +30,6 @@ h1 {
 button {
     background-color: rgb(99, 160, 136, 0.5);
     border: solid 2px #63A088;
-    height: 55px;
     padding: 10px;
     font-family: roc-grotesk, sans-serif;
     font-size: 1em;
@@ -67,7 +66,6 @@ h3 {
     padding: 10px;
     text-align: center;
     margin: 0;
-    height: 55px;
 
     animation: scaleDown 3s 1s backwards;
 }
@@ -78,7 +76,6 @@ p {
     font-size: 1em;
     letter-spacing: .15em; 
     margin: 0;
-    height: 55px;
     padding: 10px;
     border-right: .15em solid #63A088;
     overflow: hidden;
