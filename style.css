@@ -150,6 +150,11 @@ p {
 
     .container {
         grid-template-columns: 1fr;
+        grid-template-areas: 
+        "button"
+        "phrase"
+        "animated-word"
+        "clouds";
     }
 
 
