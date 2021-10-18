@@ -196,6 +196,14 @@ p {
 }
 
 @media screen and (max-width: 480px) {
+
+  @keyframes float {
+    0% {
+      transform: translateX(-250px);
+    }
+    100% {
+      transform: translateX(480px);
+    }
   }
 
 }
