@@ -96,7 +96,8 @@ p {
   animation: typing 5s steps(35) infinite, blinking 0.5s steps(1) infinite;
 }
 
-.p-wrap {
+.p-wrap { 
+  width: 480px;
   grid-area: phrase;
 }
 
