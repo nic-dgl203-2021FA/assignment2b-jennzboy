@@ -1,5 +1,6 @@
 
 /* ########## Global Styles ########## */
+    box-sizing: inherit;
 
 body {
     background-color: #EED3D5;
