@@ -170,4 +170,18 @@ p {
   button {
     width: 200px;
   }
+
+  .btn-wrap {
+    display: flex;
+    justify-content: flex-start;
+  } 
+
+  .p-wrap {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .word-wrap {
+    justify-content: flex-start;
+  }
 }
