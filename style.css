@@ -52,6 +52,10 @@ button:hover {
     color: #F4F3EE;
     border-radius: 5px;
 }
+.btn-wrap {
+    display: flex;
+    justify-content: center;
+}
 
 /* ########## Animated Word Styles ########## */
 
