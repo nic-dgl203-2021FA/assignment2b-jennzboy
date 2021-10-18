@@ -87,6 +87,7 @@ p {
     letter-spacing: .15em; 
     margin: 10px 15px 10px 15px;
     padding: 10px;
+    border-right: .15em solid #63A088;
 }
 
 
