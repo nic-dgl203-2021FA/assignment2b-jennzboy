@@ -69,10 +69,7 @@ h3 {
     margin: 0;
     height: 55px;
 
-    animation-name: scaleDown;
-    animation-duration: 3s;
-    animation-delay: 1s;
-    animation-fill-mode: backwards;
+    animation: scaleDown 3s 1s backwards;
 }
 
 /* ########## Phrase ########## */
