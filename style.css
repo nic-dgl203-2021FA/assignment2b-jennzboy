@@ -89,6 +89,8 @@ p {
     padding: 10px;
     border-right: .15em solid #63A088;
     overflow: hidden;
+    white-space: nowrap;
+
 }
 
 
