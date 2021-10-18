@@ -140,6 +140,8 @@ p {
     animation: float 40s linear infinite;
 }
   
+.cloud02 {
+    animation: float 45s 6s linear infinite backwards;
 }
 
 /* ########## Responsive Styles ########## */
