@@ -121,6 +121,10 @@ p {
     overflow: hidden;
 }
 
+.cloud {
+    display: flex;
+}
+
 }
 
 /* ########## Responsive Styles ########## */
