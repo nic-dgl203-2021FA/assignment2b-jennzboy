@@ -67,7 +67,7 @@ h3 {
     text-align: center;
     margin: 0;
 
-    animation: scaleDown 3s 1s backwards;
+    animation: scaleDown 3s 1s backwards infinite;
 }
 
 /* ########## Phrase ########## */
@@ -81,7 +81,7 @@ p {
     overflow: hidden;
     white-space: nowrap;
 
-    animation: typing 5s steps(35),
+    animation: typing 5s steps(35) infinite,
            blinking 0.5s steps(1) infinite;
 }
 
