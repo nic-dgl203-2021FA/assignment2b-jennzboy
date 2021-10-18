@@ -54,6 +54,7 @@ h3 {
     text-align: center;
 
     animation-name: scaleDown;
+    animation-duration: 3s;
 }
 
 
