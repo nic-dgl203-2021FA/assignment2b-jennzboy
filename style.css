@@ -30,6 +30,7 @@ button {
 }
 button {
     transition: background .4s ease-in,
+                transform .2s .1s ease-in-out,
 
 }
 button:hover {
