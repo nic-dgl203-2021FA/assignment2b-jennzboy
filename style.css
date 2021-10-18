@@ -92,7 +92,6 @@ p {
   border-right: 0.15em solid #63a088;
   overflow: hidden;
   white-space: nowrap;
-  text-align: center;
 
   animation: typing 5s steps(35) infinite, blinking 0.5s steps(1) infinite;
 }
