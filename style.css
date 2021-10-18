@@ -1,4 +1,3 @@
-
 /* ########## Global Styles ########## */
 html {
     box-sizing: border-box;
@@ -113,6 +112,10 @@ p {
         border-color: #63A088;
     }
 }
+
+/* ########## Responsive Styles ########## */
+
+
 
 
 
