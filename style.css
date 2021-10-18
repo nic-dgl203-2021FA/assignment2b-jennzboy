@@ -96,7 +96,7 @@ p {
   animation: typing 5s steps(35) infinite, blinking 0.5s steps(1) infinite;
 }
 
-.p-wrap { 
+.p-wrap {
   width: 480px;
   grid-area: phrase;
 }
@@ -154,7 +154,7 @@ p {
   body {
     margin: 25px;
   }
-  
+
   .container {
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -174,7 +174,7 @@ p {
   .btn-wrap {
     display: flex;
     justify-content: flex-start;
-  } 
+  }
 
   .p-wrap {
     display: flex;
@@ -196,7 +196,6 @@ p {
 }
 
 @media screen and (max-width: 480px) {
-
   @keyframes float {
     0% {
       transform: translateX(-250px);
@@ -205,5 +204,4 @@ p {
       transform: translateX(480px);
     }
   }
-
 }
