@@ -118,6 +118,9 @@ p {
 
 .cloud-wrap {
     grid-area: clouds;
+    overflow: hidden;
+}
+
 }
 
 /* ########## Responsive Styles ########## */
