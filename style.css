@@ -221,3 +221,7 @@ p {
 
 /* ########## Pumpkin Styles ########## */
 
+.pumpkin {
+  width: 25%;
+  height: 25%;
+}
