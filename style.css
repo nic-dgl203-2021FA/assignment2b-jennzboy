@@ -227,5 +227,8 @@ p {
 }
 .pumpkin-wrap {
   display: flex;
+  justify-content: center;
+}
+
 }
 
