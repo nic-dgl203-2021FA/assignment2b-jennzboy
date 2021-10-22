@@ -225,3 +225,7 @@ p {
   width: 25%;
   height: 25%;
 }
+.pumpkin-wrap {
+  display: flex;
+}
+
