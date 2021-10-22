@@ -230,6 +230,8 @@ p {
   justify-content: center;
 }
 
+.pumpkin .st2{
+  transition: all 1s ease-out;
 }
 
 .pumpkin:hover .st2 {
