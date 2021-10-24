@@ -231,6 +231,9 @@ p {
 }
 
 @keyframes fly {
+  0% {
+    offset-distance: 0%;
+  }
   }
 }
 
