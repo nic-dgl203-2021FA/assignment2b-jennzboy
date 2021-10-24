@@ -239,5 +239,9 @@ p {
   stroke: #fce15e;
 }
 @keyframes glow {
+  0% {
+    fill: #1c1503;
+    stroke: #1c1503;
+  }
   }
 }
