@@ -255,7 +255,8 @@ html {
 
 /* ########## Halloween Text Styles ########## */
 
-.halloween-text {
+.h2-2c {
+  font-family: 'Grenze Gotisch', cursive;
   font-size: 2em;
   text-align: center;
   animation: variable 7s linear infinite;
