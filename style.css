@@ -30,7 +30,7 @@ html {
 
 /* ########## Button Styles ########## */
 
-button {
+.button-2b {
   background-color: rgb(99, 160, 136, 0.5);
   border: solid 2px #63a088;
   padding: 10px;
@@ -39,11 +39,11 @@ button {
   width: 50%;
   grid-area: button;
 }
-button {
+.button-2b {
   transition: background 0.4s ease-in, transform 0.2s 0.1s ease-in-out,
     border-radius 0.3s ease-in;
 }
-button:hover {
+.button-2b:hover {
   transform: scale(1.1);
   background: #63a088;
   color: #f4f3ee;
