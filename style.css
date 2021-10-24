@@ -259,5 +259,8 @@ p {
 }
 
 @keyframes variable {
+  0% {
+    font-variation-settings: "wght" 100;
+  }
   }
 }
