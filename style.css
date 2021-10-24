@@ -134,7 +134,7 @@ html {
 
 @keyframes float {
   0% {
-    transform: translateX(-250px);
+    transform: translateX(-330px);
   }
   100% {
     transform: translateX(1520px);
