@@ -213,12 +213,6 @@ p {
   color: #F7B538;
   font-family: 'Grenze Gotisch', cursive;
 }
-
-.halloween-text {
-  font-size: 2em;
-  text-align: center;
-}
-
 /* ########## Pumpkin Styles ########## */
 
 .pumpkin {
@@ -258,4 +252,10 @@ p {
 }
 
 /* ########## Halloween Text Styles ########## */
+
+.halloween-text {
+  font-size: 2em;
+  text-align: center;
+}
+
 }
