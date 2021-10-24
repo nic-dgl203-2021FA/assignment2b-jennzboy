@@ -230,14 +230,12 @@ p {
   justify-content: center;
 }
 
-.pumpkin .st2{
-  transition: all 1s ease-out;
 }
 
-.pumpkin:hover .st2 {
-  fill: #ffd712;
-  stroke: #fce15e;
+.pumpkin .st2{
+  animation: glow 10s infinite;
 }
+
 @keyframes glow {
   0% {
     fill: #1c1503;
