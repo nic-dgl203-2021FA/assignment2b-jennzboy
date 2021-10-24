@@ -230,6 +230,8 @@ p {
   justify-content: center;
 }
 
+@keyframes fly {
+  }
 }
 
 .pumpkin .st2{
