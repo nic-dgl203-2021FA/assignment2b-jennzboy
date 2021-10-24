@@ -270,3 +270,289 @@ html {
     font-variation-settings: "wght" 900;
   }
 }
+
+/* ########## Assignment 1C Styles ########## */
+
+/*
+COLOR PALETTE
+#211E1C - dark brown - almost black
+#63A088 - medium green
+#F4F3EE - almost white
+#EED3D5 - light pink
+
+*/
+
+/* Global styles
+---------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.body-1c {
+  color: #211e1c;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img {
+  width: 300px;
+}
+a:hover {
+  text-decoration: none;
+}
+.h1-1c {
+  font-size: 100px;
+  line-height: 1;
+}
+h2 {
+  font-size: 45px;
+}
+.h1-1c,
+h2 {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  margin: 0;
+}
+.content-wrap {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+h3 {
+  margin-bottom: 0;
+}
+.item-details h3 + p {
+  font-style: italic;
+}
+.item-details h3 ~ p {
+  margin: 0;
+}
+.divider > section {
+  border-bottom: 1px dashed #211e1c;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+
+/* Profile
+---------------------------------*/
+header {
+  background-image: url(img/gradienta-faXXUrNbH1c-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #211e1c;
+}
+header h2 {
+  margin-top: 20px;
+}
+
+/*Dropdown menu code properties from w3schools https://www.w3schools.com/css/css_dropdowns.asp 
+  - I positioned the dropdown menu on the left of the page
+  - I added margin space between the menu button and the page end
+  - I styled the menu button, and it's hover state
+  - I styled the menu links, and their hover and active states
+  - I 
+*/
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #63a088;
+  color: #f4f3ee;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  float: left;
+  margin-left: 50px;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f4f3ee;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #211e1c;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #eed3d5;
+}
+.dropdown-content a:active {
+  background-color: pink;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: rgb(99, 160, 136, 0.7);
+}
+
+/* Projects
+---------------------------------*/
+.projects {
+  background: #f4f3ee;
+}
+
+.projects .btn {
+  color: #f4f3ee;
+  background: #63a088;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.projects .btn:hover {
+  background: rgba(99, 160, 136, 80%);
+}
+.project-item {
+  overflow: hidden;
+}
+
+/* CSS-only modal by Marko on Codepen https://codepen.io/denic/pen/ZEbKgPp?editors=1100 
+   - I removed the wrapper styles because I didn't want the button to be centered in another container
+   - I changed the modal link background color, text color and font family, and removed the text transform
+   - I changed the width of the modal content container and the background color
+   - I added modal image styles to center the image in the container
+   - I removed the modal footer styles 
+*/
+
+/* If you like this, be sure to ❤️ it. */
+.wrapper a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  background-color: #63a088;
+  border-radius: 3px;
+  color: #f4f3ee;
+  font-family: "Montserrat", sans-serif;
+}
+.modal {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(77, 77, 77, 0.7);
+}
+.modal:target {
+  visibility: visible;
+  opacity: 1;
+}
+.modal__content {
+  border-radius: 4px;
+  position: relative;
+  width: 450px;
+  max-width: 90%;
+  background: #eed3d5;
+  padding: 1em 2em;
+}
+.modal__content > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.modal__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #585858;
+  text-decoration: none;
+}
+
+/* Work Experience
+---------------------------------*/
+.work-experience {
+  background: #eed3d5;
+}
+
+/* Education
+---------------------------------*/
+.education {
+  background: #f4f3ee;
+  padding-bottom: 100px;
+}
+.education p {
+  width: 60%;
+}
+
+/* Contact Info
+---------------------------------*/
+footer {
+  background-image: url(img/gradienta-faXXUrNbH1c-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #211e1c;
+}
+a {
+  color: #211e1c;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
+
+/* Responsive
+---------------------------------*/
+@media screen and (min-width: 750px) {
+  header,
+  footer {
+    text-align: center;
+  }
+  .project-item img {
+    float: left;
+    margin: 20px;
+  }
+  .job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+  }
+  .contact-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  h1 {
+    font-size: 75px;
+    line-height: 0.9;
+    margin-bottom: 20px;
+  }
+  h2 {
+    line-height: 1;
+  }
+  .contact-list a {
+    padding: 5px;
+  }
+}
