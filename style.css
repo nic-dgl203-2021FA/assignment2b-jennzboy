@@ -225,7 +225,9 @@ p {
   width: 25%;
   height: 25%;
   offset-path: path('M-117.04,209.5H1.28c91.5-104.02,251.29-109.38,351.16,0c47.67,0,70.46,0,118.13,0');
+  animation: fly 10s ease-in infinite;
 }
+
 .pumpkin-wrap {
   display: flex;
   justify-content: center;
