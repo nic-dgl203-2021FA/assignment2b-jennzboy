@@ -256,6 +256,7 @@ p {
 .halloween-text {
   font-size: 2em;
   text-align: center;
+  animation: variable 7s linear infinite;
 }
 
 @keyframes variable {
