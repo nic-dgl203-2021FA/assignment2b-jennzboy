@@ -49,6 +49,11 @@ ul {
   padding: 0;
 }
 
+.logotype-img {
+  width: 20%;
+  height: 20%;
+}
+
 .body-2b {
   background-color: #EED3D5;
   color: #211e1c;
