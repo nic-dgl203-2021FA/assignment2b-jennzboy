@@ -373,7 +373,6 @@ ul {
   color: #211e1c;
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 15px;
   line-height: 1.5;
 }
 img {
@@ -415,6 +414,9 @@ h3 {
 }
 .divider > section:last-of-type {
   border-bottom: none;
+}
+p {
+  font-size: 15px;
 }
 
 /* ########## 5b. Profile ########## */
