@@ -1,4 +1,5 @@
 /* ########## Global Styles ########## */
+/* ########## 2. Global Styles ########## */
 html {
   box-sizing: border-box;
 }
@@ -8,6 +9,40 @@ html {
   box-sizing: inherit;
 }
 
+/* Right Aligned Menu Links code from https://www.w3schools.com/howto/howto_css_topnav_right.asp 
+   - I changed the background and text colors
+   - I made the padding bigger
+   - I made the font size bigger
+   - I removed the background color and changed the text color on hover
+*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgba(244, 243, 238, 0.5);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #211E1C;
+text-align: center;
+padding: 15px 25px;
+text-decoration: none;
+font-size: 1.5em;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+color: hotpink;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+float: right;
+}
+
+/* End of Right Aligned Menu Links code*/
 .body-2b {
   background-color: #EED3D5;
   color: #211e1c;
