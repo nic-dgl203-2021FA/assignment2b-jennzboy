@@ -59,9 +59,9 @@ html {
 .topnav a {
 float: left;
 color: #211E1C;
-text-align: center;
 padding: 15px 25px;
 text-decoration: none;
+text-align: left;
 }
 
 /* Change the color of links on hover */
