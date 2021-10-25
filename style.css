@@ -337,14 +337,6 @@ ul {
 
 /* Global styles
 ---------------------------------*/
-html {
-  box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
 .body-1c {
   color: #211e1c;
   margin: 0;
