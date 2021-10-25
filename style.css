@@ -619,13 +619,15 @@ a {
 }
 
 @media screen and (max-width: 749px) {
-  h1 {
+  .h1-1c {
     font-size: 75px;
     line-height: 0.9;
     margin-bottom: 20px;
+    text-align: left;
   }
-  h2 {
+  .h2-1c {
     line-height: 1;
+    text-align: left;
   }
   .contact-list a {
     padding: 5px;
