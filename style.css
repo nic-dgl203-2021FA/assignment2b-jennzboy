@@ -61,6 +61,9 @@ ul {
   height: 20%;
 }
 
+/* ########## 3. Assignment 2B ########## */
+
+/* ########## 3a. Base Styles ########## */
 .body-2b {
   background-color: #EED3D5;
   color: #211e1c;
@@ -82,7 +85,7 @@ ul {
     "clouds clouds clouds";
 }
 
-/* ########## Button Styles ########## */
+/* ########## 3b. Button ########## */
 
 .button-2b {
   background-color: rgb(99, 160, 136, 0.5);
@@ -108,7 +111,7 @@ ul {
   justify-content: center;
 }
 
-/* ########## Animated Word Styles ########## */
+/* ########## 3c. Animated Word ########## */
 
 @keyframes scaleDown {
   0% {
@@ -136,7 +139,7 @@ ul {
   width: 400px;
 }
 
-/* ########## Phrase Styles ########## */
+/* ########## 3d. Animated Phrase ########## */
 
 .p-2b {
   font-size: 1em;
@@ -146,6 +149,7 @@ ul {
   border-right: 0.15em solid #63a088;
   overflow: hidden;
   white-space: nowrap;
+  text-align: center;
 
   animation: typing 5s steps(35) infinite, blinking 0.5s steps(1) infinite;
 }
@@ -174,7 +178,7 @@ ul {
   }
 }
 
-/* ########## Cloud Styles ########## */
+/* ########## 3e. Animated Cloud ########## */
 
 .cloud-wrap {
   grid-area: clouds;
@@ -203,7 +207,8 @@ ul {
   animation: float 45s 6s linear infinite backwards;
 }
 
-/* ########## Responsive Styles ########## */
+/* ########## 3f. 2B Responsive Styles ########## */
+
 @media screen and (max-width: 1150px) {
   body {
     margin: 25px;
@@ -260,7 +265,9 @@ ul {
   }
 }
 
-/* ########## Halloween Animation Global Styles ########## */
+/* ########## 4. Assignment 2C ########## */
+
+/* ########## 4a. Base Styles ########## */
 
 .body-1c {
   background-color: #EED3D5 ;
@@ -274,7 +281,7 @@ ul {
   text-align: center;
 }
 
-/* ########## Pumpkin Styles ########## */
+/* ########## 4b. Animated Pumpkin ########## */
 
 .pumpkin {
   width: 25%;
@@ -312,7 +319,7 @@ ul {
   }
 }
 
-/* ########## Halloween Text Styles ########## */
+/* ########## 4c. Animated Text ########## */
 
 .h2-2c {
   font-family: 'Grenze Gotisch', cursive;
@@ -330,13 +337,10 @@ ul {
   }
 }
 
-/* ########## Assignment 1C Styles ########## */
+/* ########## 5. Assignment 1C ########## */
 
+/* ########## 5a. Base Styles ########## */
 
-*/
-
-/* Global styles
----------------------------------*/
 .body-1c {
   color: #211e1c;
   margin: 0;
@@ -357,8 +361,7 @@ a:hover {
 h2 {
   font-size: 45px;
 }
-.h1-1c,
-h2 {
+.h1-1c, h2 {
   font-family: "Righteous", cursive;
   font-weight: 400;
   margin: 0;
@@ -386,8 +389,8 @@ h3 {
   border-bottom: none;
 }
 
-/* Profile
----------------------------------*/
+/* ########## 5b. Profile ########## */
+
 header {
   background-image: url(img/gradienta-faXXUrNbH1c-unsplash.jpg);
   background-size: cover;
@@ -452,8 +455,8 @@ header h2 {
   background-color: rgb(99, 160, 136, 0.7);
 }
 
-/* Projects
----------------------------------*/
+/* ########## 5c. Project Styles ########## */
+
 .projects {
   background: #f4f3ee;
 }
@@ -530,14 +533,14 @@ header h2 {
   text-decoration: none;
 }
 
-/* Work Experience
----------------------------------*/
+/* ########## 5d. Work Experience ########## */
+
 .work-experience {
   background: #eed3d5;
 }
 
-/* Education
----------------------------------*/
+/* ########## 5e. Education ########## */
+
 .education {
   background: #f4f3ee;
   padding-bottom: 100px;
@@ -546,8 +549,8 @@ header h2 {
   width: 60%;
 }
 
-/* Contact Info
----------------------------------*/
+/* ########## 5f. Contact ########## */
+
 footer {
   background-image: url(img/gradienta-faXXUrNbH1c-unsplash.jpg);
   background-size: cover;
@@ -566,8 +569,8 @@ a {
   display: inline-block;
 }
 
-/* Responsive
----------------------------------*/
+/* ########## 5g. 1C Responsive Styles ########## */
+
 @media screen and (min-width: 750px) {
   header,
   footer {
