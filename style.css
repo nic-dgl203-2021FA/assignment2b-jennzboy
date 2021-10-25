@@ -43,6 +43,12 @@ float: right;
 }
 
 /* End of Right Aligned Menu Links code*/
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .body-2b {
   background-color: #EED3D5;
   color: #211e1c;
