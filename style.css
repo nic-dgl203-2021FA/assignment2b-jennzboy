@@ -256,8 +256,10 @@ ul {
 /* ########## Halloween Animation Global Styles ########## */
 
 .body-1c {
-  background-color: #020202 ;
-  color: #F7B538;
+  background-color: #EED3D5 ;
+  color: #211E1C;
+}
+
   font-family: 'Grenze Gotisch', cursive;
   text-align: center;
 }
