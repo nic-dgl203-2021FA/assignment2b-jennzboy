@@ -87,6 +87,10 @@ ul {
   height: 20%;
 }
 
+.hamburger, .close {
+  display: none;
+}
+
 /* ########## 3. Assignment 2B ########## */
 
 /* ########## 3a. Base Styles ########## */
