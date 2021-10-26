@@ -2,25 +2,24 @@
 TABLE OF CONTENTS
   1. Color Palette
   2. Global Navigation Styles
-  3. Assignment 2B
-    3a. 2B Base Styles
-    3b. Button
-    3c. Animated Phrase
-    3d. Animated Word
-    3e. Animated Cloud
-    3f. 2B Responsive
-  4. Assignment 2C
-    4a. Base Styles
-    4b. Animated Pumpkin
-    4c. Animated Text
-  5. Assignment 1C 
-    5a. 1C Base Styles
-    5b. Profile
-    5c. Projects
-    5d. Work Experience
-    5e. Education
-    5f. Contact Info
-    5g. 1C Responsive Styles
+  3. Responsive Styles
+  4. Assignment 2B
+    4a. 2B Base Styles
+    4b. Button
+    4c. Animated Phrase
+    4d. Animated Word
+    4e. Animated Cloud
+  5. Assignment 2C
+    5a. Base Styles
+    5b. Animated Pumpkin
+    5c. Animated Text
+  6. Assignment 1C 
+    6a. 1C Base Styles
+    6b. Profile
+    6c. Projects
+    6d. Work Experience
+    6e. Education
+    6f. Contact Info
 
 /*
 1. COLOR PALETTE
@@ -91,7 +90,7 @@ ul {
   display: none;
 }
 
-/* ########## Responsive Styles ########## */
+/* ########## 3. Responsive Styles ########## */
 
 @media screen and (min-width: 750px) {
   .header-1c, .footer {
@@ -203,9 +202,9 @@ ul {
 
 }
 
-/* ########## 3. Assignment 2B ########## */
+/* ########## 4. Assignment 2B ########## */
 
-/* ########## 3a. Base Styles ########## */
+/* ########## 4a. Base Styles ########## */
 .body-2b {
   background-color: #EED3D5;
   color: #211e1c;
@@ -227,7 +226,7 @@ ul {
     "clouds clouds clouds";
 }
 
-/* ########## 3b. Button ########## */
+/* ########## 4b. Button ########## */
 
 .button-2b {
   background-color: rgb(99, 160, 136, 0.5);
@@ -253,7 +252,7 @@ ul {
   justify-content: center;
 }
 
-/* ########## 3c. Animated Word ########## */
+/* ########## 4c. Animated Word ########## */
 
 @keyframes scaleDown {
   0% {
@@ -281,7 +280,7 @@ ul {
   width: 400px;
 }
 
-/* ########## 3d. Animated Phrase ########## */
+/* ########## 4d. Animated Phrase ########## */
 
 .p-2b {
   font-size: 1em;
@@ -320,7 +319,7 @@ ul {
   }
 }
 
-/* ########## 3e. Animated Cloud ########## */
+/* ########## 4e. Animated Cloud ########## */
 
 .cloud-wrap {
   grid-area: clouds;
@@ -350,9 +349,9 @@ ul {
 }
 
 
-/* ########## 4. Assignment 2C ########## */
+/* ########## 5. Assignment 2C ########## */
 
-/* ########## 4a. Base Styles ########## */
+/* ########## 5a. Base Styles ########## */
 
 .body-2c {
   background-color: #E6B89C ;
@@ -367,7 +366,7 @@ ul {
   text-align: center;
 }
 
-/* ########## 4b. Animated Pumpkin ########## */
+/* ########## 5b. Animated Pumpkin ########## */
 
 .pumpkin {
   width: 25%;
@@ -405,7 +404,7 @@ ul {
   }
 }
 
-/* ########## 4c. Animated Text ########## */
+/* ########## 5c. Animated Text ########## */
 
 .h2-2c {
   font-family: 'Grenze Gotisch', cursive;
@@ -423,9 +422,9 @@ ul {
   }
 }
 
-/* ########## 5. Assignment 1C ########## */
+/* ########## 6. Assignment 1C ########## */
 
-/* ########## 5a. Base Styles ########## */
+/* ########## 6a. Base Styles ########## */
 
 .body-1c {
   background-color: white;
@@ -478,7 +477,7 @@ p {
   font-size: 15px;
 }
 
-/* ########## 5b. Profile ########## */
+/* ########## 6b. Profile ########## */
 
 .header-1c {
   background-image: url(img/gradienta-faXXUrNbH1c-unsplash.jpg);
@@ -544,7 +543,7 @@ header h2 {
   background-color: rgb(99, 160, 136, 0.7);
 }
 
-/* ########## 5c. Project Styles ########## */
+/* ########## 6c. Project Styles ########## */
 
 .projects {
   background: #f4f3ee;
@@ -622,13 +621,13 @@ header h2 {
   text-decoration: none;
 }
 
-/* ########## 5d. Work Experience ########## */
+/* ########## 6d. Work Experience ########## */
 
 .work-experience {
   background: #eed3d5;
 }
 
-/* ########## 5e. Education ########## */
+/* ########## 6e. Education ########## */
 
 .education {
   background: #f4f3ee;
@@ -638,7 +637,7 @@ header h2 {
   width: 60%;
 }
 
-/* ########## 5f. Contact ########## */
+/* ########## 6f. Contact ########## */
 
 footer {
   background-image: url(img/gradienta-faXXUrNbH1c-unsplash.jpg);
@@ -657,6 +656,4 @@ a {
   padding: 15px;
   display: inline-block;
 }
-
-/* ########## 5g. 1C Responsive Styles ########## */
 
