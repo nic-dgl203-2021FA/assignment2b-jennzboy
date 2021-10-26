@@ -91,7 +91,44 @@ ul {
   display: none;
 }
 
+/* ########## Responsive Styles ########## */
+
+@media screen and (min-width: 750px) {
+  .header-1c, .footer {
+    text-align: center;
+  }
+  .project-item img {
+    float: left;
+    margin: 20px;
+  }
+  .job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+  }
+  .contact-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 749px) {
+  .h1-1c {
+    font-size: 75px;
+    line-height: 0.9;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .h2-1c {
+    line-height: 1;
+    text-align: left;
+  }
+  .contact-list a {
+    padding: 5px;
+  }
+  .dropbtn {
+    width: auto;
+  }
   nav {
     position: absolute;
     z-index: 1000;
@@ -128,8 +165,38 @@ ul {
     margin-left: 15px;
   }
 
+  .container-2b {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "button"
+      "phrase"
+      "animated-word"
+      "clouds";
   }
+
+  .h1-2b {
+    text-align: left;
   }
+  .button-2b {
+    width: 200px;
+  }
+
+  .btn-wrap {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .p-wrap {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .word-wrap {
+    justify-content: flex-start;
+  }
+
+}
+
 /* ########## 3. Assignment 2B ########## */
 
 /* ########## 3a. Base Styles ########## */
@@ -276,63 +343,6 @@ ul {
   animation: float 45s 6s linear infinite backwards;
 }
 
-/* ########## 3f. 2B Responsive Styles ########## */
-
-@media screen and (max-width: 1150px) {
-  body {
-    margin: 25px;
-  }
-
-  .container {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "button"
-      "phrase"
-      "animated-word"
-      "clouds";
-  }
-
-  h1 {
-    text-align: left;
-  }
-  button {
-    width: 200px;
-  }
-
-  .btn-wrap {
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .p-wrap {
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .word-wrap {
-    justify-content: flex-start;
-  }
-
-  @keyframes float {
-    0% {
-      transform: translateX(-250px);
-    }
-    100% {
-      transform: translateX(1150px);
-    }
-  }
-}
-
-@media screen and (max-width: 480px) {
-  @keyframes float {
-    0% {
-      transform: translateX(-250px);
-    }
-    100% {
-      transform: translateX(480px);
-    }
-  }
-}
 
 /* ########## 4. Assignment 2C ########## */
 
@@ -644,38 +654,3 @@ a {
 
 /* ########## 5g. 1C Responsive Styles ########## */
 
-@media screen and (min-width: 750px) {
-  header,
-  footer {
-    text-align: center;
-  }
-  .project-item img {
-    float: left;
-    margin: 20px;
-  }
-  .job-item {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 20px;
-  }
-  .contact-list {
-    display: flex;
-    justify-content: center;
-  }
-}
-
-@media screen and (max-width: 749px) {
-  .h1-1c {
-    font-size: 75px;
-    line-height: 0.9;
-    margin-bottom: 20px;
-    text-align: left;
-  }
-  .h2-1c {
-    line-height: 1;
-    text-align: left;
-  }
-  .contact-list a {
-    padding: 5px;
-  }
-}
