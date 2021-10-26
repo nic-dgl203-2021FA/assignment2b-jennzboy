@@ -110,6 +110,11 @@ ul {
   nav:target {
     transform: translateY(0);
   }
+
+  .topnav {
+    display: block;
+    width: 200px;
+    background-color: #F4F3EE;
   }
 
   .hamburger, .close {
