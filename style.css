@@ -99,6 +99,10 @@ ul {
     left: 0;
     overflow: hidden;
   
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  
   }
 
   .hamburger, .close {
