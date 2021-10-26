@@ -94,6 +94,7 @@ ul {
 @media screen and (max-width: 749px) {
   .hamburger, .close {
     font-size: 2em;
+    color: #211E1C;
   }
 /* ########## 3. Assignment 2B ########## */
 
