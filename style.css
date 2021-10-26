@@ -95,6 +95,9 @@ ul {
   .hamburger, .close {
     font-size: 2em;
     color: #211E1C;
+    display: inline-block;
+  }
+
   }
 /* ########## 3. Assignment 2B ########## */
 
