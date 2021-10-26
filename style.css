@@ -91,6 +91,10 @@ ul {
   display: none;
 }
 
+@media screen and (max-width: 749px) {
+  .hamburger, .close {
+    font-size: 2em;
+  }
 /* ########## 3. Assignment 2B ########## */
 
 /* ########## 3a. Base Styles ########## */
