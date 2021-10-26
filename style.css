@@ -129,6 +129,11 @@ ul {
   .dropbtn {
     width: auto;
   }
+
+  /* Responsive Navbar code from https://www.linkedin.com/learning/html-and-css-creating-navigation-bars/ 
+     - I removed the width and height limits and the center aligned text
+  */
+
   nav {
     position: absolute;
     z-index: 1000;
@@ -146,6 +151,8 @@ ul {
   nav:target {
     transform: translateY(0);
   }
+
+  /* End of responsive navbar code */
 
   .topnav {
     display: block;
