@@ -98,6 +98,9 @@ ul {
     display: inline-block;
   }
 
+  .hamburger {
+    position: absolute;
+  }
   }
 /* ########## 3. Assignment 2B ########## */
 
